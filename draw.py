@@ -9,7 +9,7 @@ canvas = np.zeros((480, 640, 3), dtype=np.uint8)
 lower_blue = np.array([100, 150, 50])
 upper_blue = np.array([130, 255, 255])
 prev_x, prev_y = None, None
-draw_color = (0, 255, 0)  # Green color for drawing
+draw_color = (0, 255, 0)
 brush_size = 6
 
 print("\n" + "*"*60)
@@ -90,3 +90,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 print("\n Done ")
+
